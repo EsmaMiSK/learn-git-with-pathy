@@ -1,0 +1,16 @@
+ملخص جميع الاكواد
+
+الجزء الأول: Git
+1) git init -> يفعل Git في المشروع بحيث يبدأ تتبعه
+2) git status -> يسأل Git وش أوضاع الملفات وحالتها
+3)
+git add filename   # ملف معين
+git add .          # كل الملفات
+                                -> يجهّز الملف للحفظ
+4) git commit -m "message" ->  يحفظ التغييرات في تاريخ المشروع
+5) git log -> يعرض تاريخ المشروع الكامل
+
+الجزء الثاني: GitHub
+1) git remote add origin https://gi... -> يربط مشروعك المحلي مع مستودع على GitHub
+2) git branch -M main -> يسمي الفرع الرئيسي "main"
+3) git push -u origin main -> يرفع المشروع من جهازك للإنترنت
