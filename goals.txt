@@ -15,4 +15,10 @@ git add .          # كل الملفات
 2) git branch -M main -> يسمي الفرع الرئيسي "main"
 3) git push -u origin main -> يرفع المشروع من جهازك للإنترنت
 
-وبس.
+الدرس السادس:
+git branch -> يعرض كل Branches الموجودة
+git branch name -> ينشئ branch جديد
+git checkout name -> ينتقل إلى الـ branch
+```
+git push origin name -> يرفع التعديلات على Github في branch معين
+
